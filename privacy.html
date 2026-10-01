@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ru" data-tru="Политика конфиденциальности — SmartBilim" data-tky="Купуялык саясаты — SmartBilim">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Политика конфиденциальности — SmartBilim</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1d1830;--soft:#5b5470;--line:#e4dff0;--bg:#ffffff;--tint:#f4f1fb;--brand:#6C50BE;--brand-ink:#4a3391}
+@media (prefers-color-scheme:dark){:root{--ink:#ece8f7;--soft:#a9a2bf;--line:#2e2842;--bg:#15121f;--tint:#1e1a2c;--brand:#9b83e6;--brand-ink:#b9a8f0}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Onest",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+header{border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1rem 0}
+.brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:1.05rem;color:var(--ink);text-decoration:none}
+.mark{width:34px;height:34px;border-radius:9px;background:#6C50BE;display:grid;place-items:center}
+.lang{display:flex;border:1px solid var(--line);border-radius:999px;padding:3px}
+.lang button{border:0;background:none;color:var(--soft);font:inherit;font-size:.9rem;padding:.25rem .8rem;border-radius:999px;cursor:pointer}
+.lang button[aria-pressed=true]{background:var(--brand);color:#fff}
+button:focus-visible,a:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+main{padding:2.5rem 0 3rem}
+h1{font-size:clamp(1.8rem,5vw,2.4rem);line-height:1.15;margin:0 0 .5rem;letter-spacing:-.01em}
+.upd{color:var(--soft);font-size:.92rem;margin:0 0 2rem}
+.lead{font-size:1.1rem;color:var(--soft)}
+h2{font-size:1.15rem;margin:2.2rem 0 .5rem}
+p,li{margin:.4rem 0}
+ul{padding-left:1.2rem}
+a{color:var(--brand-ink)}
+.ways{display:grid;gap:1rem;margin:1.5rem 0}
+.way{border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:10px;padding:1rem 1.2rem;background:var(--tint)}
+.way h2{margin-top:0}
+.path{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;margin:.6rem 0;font-weight:600}
+.path span{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:.15rem .55rem}
+.path i{font-style:normal;color:var(--soft)}
+.warn{font-weight:600}
+footer{border-top:1px solid var(--line);padding:1.5rem 0 2.5rem;color:var(--soft);font-size:.92rem}
+footer nav{display:flex;flex-wrap:wrap;gap:1.2rem;margin-bottom:.6rem}
+[data-l]{display:none}
+html[lang=ru] [data-l=ru],html[lang=ky] [data-l=ky]{display:revert}
+html[lang=ru] footer nav[data-l=ru],html[lang=ky] footer nav[data-l=ky]{display:flex}
+</style></head>
+<body>
+<header><div class="wrap bar"><a class="brand" href="privacy.html"><span class="mark"><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3zm-6.8 9.2V16c0 1.9 3 3.5 6.8 3.5s6.8-1.6 6.8-3.5v-3.8L12 16l-6.8-3.8z"/></svg></span>SmartBilim</a>
+<div class="lang" role="group" aria-label="Язык / Тил"><button data-set="ky" aria-pressed="false">Кыргызча</button><button data-set="ru" aria-pressed="true">Русский</button></div></div></header>
+<main class="wrap"><div data-l="ru"><h1>Политика конфиденциальности</h1><p class="upd">Обновлено: 1 октября 2026</p><p class="lead">SmartBilim — сервис для учителей Кыргызстана: создание тестов и планов уроков с помощью ИИ и проверка ответов учеников. Здесь описано, какие данные мы собираем, зачем и как их удалить.</p>
+<h2>Какие данные мы собираем</h2><ul>
+<li><b>Учитель:</b> ФИО, email, пароль (хранится только в виде хэша, сам пароль мы не видим), школа, ФИО заведующего учебной частью.</li>
+<li><b>Ваши материалы:</b> тесты, планы уроков и параметры запросов (предмет, класс, тема).</li>
+<li><b>Ученики:</b> проходя тест по ссылке, ученик вводит имя и класс. Сохраняются его ответы и результат.</li>
+<li><b>Подписка:</b> использованные коды активации и даты их использования.</li>
+<li><b>Технические данные:</b> служебные журналы сервера (время запроса, адрес).</li></ul>
+<p>Мы не собираем геолокацию, контакты, фото и файлы с устройства.</p>
+<h2>Зачем мы их используем</h2><p>Чтобы работал ваш аккаунт, создавались материалы, проверялись ответы учеников, действовала подписка, а также для поддержки и защиты от злоупотреблений.</p>
+<h2>Кому передаются данные</h2><p>Мы не продаём данные и не показываем рекламу. Для работы сервиса используются:</p><ul>
+<li><b>Google (Gemini API)</b> — получает содержимое запроса на создание теста или урока;</li>
+<li><b>Supabase</b> — хранение базы данных;</li>
+<li><b>Render</b> — размещение сервера.</li></ul>
+<h2>Хранение и защита</h2><p>Данные хранятся, пока существует аккаунт. Соединение шифруется (HTTPS), пароли хранятся в виде хэша.</p>
+<h2>Ученики и дети</h2><p>Приложение предназначено для учителей. Ученики не устанавливают приложение и не создают аккаунт. Имя, класс и ответы ученика вводятся при выполнении задания учителя и видны только этому учителю. Учитель может удалить результаты в любой момент.</p>
+<h2>Удаление аккаунта и данных</h2><p>Аккаунт можно удалить в приложении или через поддержку — см. страницу <a href="delete-account.html">Удаление аккаунта</a>. Удаляются аккаунт, тесты, планы уроков и ответы учеников. Записи о кодах активации сохраняются без привязки к вам для учёта платежей.</p>
+<h2>Изменения</h2><p>При изменении политики новая версия и дата обновления публикуются на этой странице.</p><h2>Контакты</h2><p>Email: <a href="mailto:smartbilim.support@gmail.com">smartbilim.support@gmail.com</a><br>WhatsApp: <a href="https://wa.me/996554099400">+996 554 099 400</a></p></div><div data-l="ky"><h1>Купуялык саясаты</h1><p class="upd">Жаңыртылган: 2026-жылдын 1-октябры</p><p class="lead">SmartBilim — Кыргызстандын мугалимдери үчүн кызмат: жасалма интеллект менен тесттерди жана сабак пландарын түзүү, окуучулардын жоопторун текшерүү. Бул баракта кандай маалыматтарды чогултаарыбыз, эмне үчүн жана аларды кантип өчүрсө болоору жазылган.</p>
+<h2>Кандай маалыматтарды чогултабыз</h2><ul>
+<li><b>Мугалим:</b> аты-жөнү, email, сырсөз (хэш түрүндө гана сакталат, сырсөздүн өзүн биз көрбөйбүз), мектеп, окуу бөлүмүнүн башчысынын аты-жөнү.</li>
+<li><b>Сиздин материалдар:</b> тесттер, сабак пландары жана суроо-талаптын параметрлери (сабак, класс, тема).</li>
+<li><b>Окуучулар:</b> шилтеме аркылуу тест тапшырганда окуучу атын жана классын жазат. Анын жооптору жана жыйынтыгы сакталат.</li>
+<li><b>Жазылуу:</b> колдонулган активация коддору жана алардын даталары.</li>
+<li><b>Техникалык маалымат:</b> сервердин кызматтык журналдары (суроо-талаптын убактысы, дарек).</li></ul>
+<p>Биз жайгашкан жерди, байланыштарды, сүрөттөрдү жана түзмөктөгү файлдарды чогултпайбыз.</p>
+<h2>Эмне үчүн колдонобуз</h2><p>Аккаунт иштеши, материалдар түзүлүшү, окуучулардын жооптору текшерилиши, жазылуу иштеши үчүн, ошондой эле колдоо көрсөтүү жана кыянаттыктан коргоо үчүн.</p>
+<h2>Маалымат кимге берилет</h2><p>Биз маалыматты сатпайбыз жана жарнама көрсөтпөйбүз. Кызматтын иштеши үчүн булар колдонулат:</p><ul>
+<li><b>Google (Gemini API)</b> — тест же сабак түзүү суроо-талабынын мазмунун алат;</li>
+<li><b>Supabase</b> — маалымат базасын сактоо;</li>
+<li><b>Render</b> — серверди жайгаштыруу.</li></ul>
+<h2>Сактоо жана коргоо</h2><p>Маалымат аккаунт бар болгон убакытта сакталат. Байланыш шифрленет (HTTPS), сырсөздөр хэш түрүндө сакталат.</p>
+<h2>Окуучулар жана балдар</h2><p>Колдонмо мугалимдер үчүн арналган. Окуучулар колдонмону орнотпойт жана аккаунт ачпайт. Окуучунун аты, классы жана жооптору мугалимдин тапшырмасын аткарууда киргизилет жана ошол мугалимге гана көрүнөт. Мугалим жыйынтыктарды каалаган убакта өчүрө алат.</p>
+<h2>Аккаунтту жана маалыматты өчүрүү</h2><p>Аккаунтту колдонмодо же колдоо кызматы аркылуу өчүрсө болот — <a href="delete-account.html">Аккаунтту өчүрүү</a> барагын караңыз. Аккаунт, тесттер, сабак пландары жана окуучулардын жооптору өчүрүлөт. Активация коддору тууралуу жазуулар төлөмдөрдү эсепке алуу үчүн сизге байланышсыз сакталат.</p>
+<h2>Өзгөртүүлөр</h2><p>Саясат өзгөрсө, жаңы версиясы жана жаңыртылган күнү ушул баракта жарыяланат.</p><h2>Байланыш</h2><p>Email: <a href="mailto:smartbilim.support@gmail.com">smartbilim.support@gmail.com</a><br>WhatsApp: <a href="https://wa.me/996554099400">+996 554 099 400</a></p></div></main>
+<footer><div class="wrap"><nav data-l="ru"><a href="privacy.html">Конфиденциальность</a><a href="terms.html">Условия</a><a href="delete-account.html">Удаление аккаунта</a></nav><nav data-l="ky"><a href="privacy.html">Купуялык</a><a href="terms.html">Шарттар</a><a href="delete-account.html">Аккаунтту өчүрүү</a></nav>© 2026 SmartBilim</div></footer>
+<script>
+(function(){var h=document.documentElement,b=document.querySelectorAll('.lang button');
+function set(l){h.lang=l;b.forEach(function(x){x.setAttribute('aria-pressed',x.dataset.set===l)});document.title=h.dataset['t'+l];}
+var q=new URLSearchParams(location.search).get('lang');
+set(q==='ky'||q==='ru'?q:((navigator.language||'').toLowerCase().indexOf('ky')===0?'ky':'ru'));
+b.forEach(function(x){x.onclick=function(){set(x.dataset.set)}});})();
+</script>
+</body></html>
